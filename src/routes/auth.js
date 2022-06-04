@@ -3,7 +3,7 @@ const joi = require('joi');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-const { jwtSecret } = require('../../../config');
+const { jwtSecret } = require('../../config');
 
 const router = Router();
 

@@ -1,10 +1,9 @@
 const { Router } = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const { loggedInMiddleware } = require('../../middleware/loggedIn');
-
-const { jwtSecret } = require('../../../config');
-const loggedIn = require('../../middleware/loggedIn');
+const { loggedInMiddleware } = require('../middleware/loggedIn');
+const { jwtSecret } = require('../../config');
+const loggedIn = require('../middleware/loggedIn');
 
 const router = Router();
 
