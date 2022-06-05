@@ -17,7 +17,7 @@ async function getDalyviai(mysql, user_id) {
                 d.birth_date,
                 d.user_id
             FROM 
-                dalyviai d
+                mokiniai d
                 WHERE user_id = ?               
             ;
             `;
